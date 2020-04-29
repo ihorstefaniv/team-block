@@ -2,7 +2,9 @@
   height: 100px;
   width: 50%;
   display: inline-block;
+  box-sizing: border-box;
 }
+
 .box-1 {
   background-color: red;
   padding: 10px 20px 30px 40px;
@@ -28,11 +30,12 @@
   background-color: blue;
   padding: 20px 10px 30px 40px;
   margin: 30px 20px 40px 10px;
-  box-sizing: border-box;
   color: white;
 }
+
 .container {
   border: 1px solid;
   max-width: 600px;
-  width: 100px;
+  width: 100%;
+  margin: auto;
 }
